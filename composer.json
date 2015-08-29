@@ -1,5 +1,5 @@
 {
-    "name": "esster8/codeswholesale-sdk-php",
+    "name": "codeswholesale/sdk",
     "type": "library",
     "description": "A PHP wrapper for CodesWholesale's API",
     "keywords": [
