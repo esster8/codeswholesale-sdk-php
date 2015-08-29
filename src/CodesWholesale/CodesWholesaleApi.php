@@ -37,7 +37,7 @@ class CodesWholesaleApi extends Api {
 
     public function getToken() {
 
-        $context = new Context($this->clientConfig->getClientId(), new Scope(array("read", "write")));
+        $context = new Context($this->clientConfig->getClientId(), array("read", "write"));
         $accessToken = parent::getAccessToken($context);
 
         if(false === $accessToken) {
